@@ -9,40 +9,24 @@
 |-----------------|
 | [![Documentation](https://img.shields.io/badge/api-reference-blue.svg)](https://www.tensorflow.org/api_docs/) |
 
-**TensorFlow** is an open source software library for numerical computation using
-data flow graphs.  The graph nodes represent mathematical operations, while
-the graph edges represent the multidimensional data arrays (tensors) that flow
-between them.  This flexible architecture enables you to deploy computation to one
-or more CPUs or GPUs in a desktop, server, or mobile device without rewriting
-code.  TensorFlow also includes [TensorBoard](https://www.tensorflow.org/guide/summaries_and_tensorboard), a data visualization toolkit.
+**TensorFlow** 是一个使用数据流图进行数值计算的开源软件库。图形节点表示数学运算，而图形边缘表示在它们之间流动的多维数据阵列（张量）。这种灵活的体系结构使您可以将计算部署到桌面，服务器或移动设备中的一个或多个CPU或GPU，而无需重写代码。TensorFlow还包括[TensorBoard](https://www.tensorflow.org/guide/summaries_and_tensorboard), 一种数据可视化工具包。
 
-TensorFlow was originally developed by researchers and engineers
-working on the Google Brain team within Google's Machine Intelligence Research
-organization for the purposes of conducting machine learning and deep neural
-networks research.  The system is general enough to be applicable in a wide
-variety of other domains, as well.
+TensorFlow 最初是由研究人员和工程师在Google机器智能研究组织的Google Brain团队开发的，目的是进行机器学习和深度神经网络研究。该系统通用性足以适用于各种其他领域。
 
-TensorFlow provides stable Python API and C APIs as well as without API backwards compatibility guarantee like C++, Go, Java, JavaScript and Swift.
+TensorFlow提供稳定的Python API和C API，以及没有API向后兼容性保证，如C ++，Go，Java，JavaScript和Swift。
+通过订阅[announce@tensorflow.org](https://groups.google.com/a/tensorflow.org/forum/#!forum/announce)了解发布公告和安全更新的最新信息 。
 
-Keep up to date with release announcements and security updates by
-subscribing to
-[announce@tensorflow.org](https://groups.google.com/a/tensorflow.org/forum/#!forum/announce).
+## 安装
+*有关如何安装发行二进制文件或如何从源构建的说明，请参阅安装 [Installing TensorFlow](https://www.tensorflow.org/get_started/os_setup.html)*
 
-## Installation
-*See [Installing TensorFlow](https://www.tensorflow.org/get_started/os_setup.html) for instructions on how to install our release binaries or how to build from source.*
-
-People who are a little more adventurous can also try our nightly binaries:
+喜欢冒险的人也可以尝试我们的夜间二进制文件：
 
 **Nightly pip packages**
-* We are pleased to announce that TensorFlow now offers nightly pip packages
-under the [tf-nightly](https://pypi.python.org/pypi/tf-nightly) and
-[tf-nightly-gpu](https://pypi.python.org/pypi/tf-nightly-gpu) project on pypi.
-Simply run `pip install tf-nightly` or `pip install tf-nightly-gpu` in a clean
-environment to install the nightly TensorFlow build. We support CPU and GPU
-packages on Linux, Mac, and Windows.
+* 我们很高兴地宣布，TensorFlow现在在pypi 的[tf-nightly](https://pypi.python.org/pypi/tf-nightly) 和
+[tf-nightly-gpu](https://pypi.python.org/pypi/tf-nightly-gpu) 项目下提供夜间点包。只需运行`pip install tf-nightly`或`pip install tf-nightly-gpu`在干净的环境中安装TensorFlow构建。我们支持Linux，Mac和Windows上的CPU和GPU包。
 
 
-#### *Try your first TensorFlow program*
+#### *试试你的第一个TensorFlow程序*
 ```shell
 $ python
 ```
@@ -58,21 +42,17 @@ $ python
 42
 >>> sess.close()
 ```
-Learn more examples about how to do specific tasks in TensorFlow at the [tutorials page of tensorflow.org](https://www.tensorflow.org/tutorials/).
+在[tensorflow.org](https://www.tensorflow.org/tutorials/)教程页面中了解有关如何在TensorFlow中执行特定任务的更多示例.
 
-## Contribution guidelines
+## 贡献指南
 
-**If you want to contribute to TensorFlow, be sure to review the [contribution
-guidelines](CONTRIBUTING.md). This project adheres to TensorFlow's
-[code of conduct](CODE_OF_CONDUCT.md). By participating, you are expected to
-uphold this code.**
+**如果您想为TensorFlow做出贡献，请务必查看[贡献指南](CONTRIBUTING.md). 该项目遵守TensorFlow的
+[行为准则](CODE_OF_CONDUCT.md). 通过参与，您应该支持此代码。**
 
-**We use [GitHub issues](https://github.com/tensorflow/tensorflow/issues) for
-tracking requests and bugs. So please see
-[TensorFlow Discuss](https://groups.google.com/a/tensorflow.org/forum/#!forum/discuss) for general questions
-and discussion, and please direct specific questions to [Stack Overflow](https://stackoverflow.com/questions/tagged/tensorflow).**
+**我们使用 [GitHub issues](https://github.com/tensorflow/tensorflow/issues) 来跟踪请求和错误. 所以请参阅
+[TensorFlow 社区](https://groups.google.com/a/tensorflow.org/forum/#!forum/discuss) 一般问题和讨论，并请将具体问题直接发送到 [Stack Overflow](https://stackoverflow.com/questions/tagged/tensorflow).**
 
-The TensorFlow project strives to abide by generally accepted best practices in open-source software development:
+TensorFlow项目致力于遵循开源软件开发中普遍接受的最佳实践：
 
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1486/badge)](https://bestpractices.coreinfrastructure.org/projects/1486)
 
